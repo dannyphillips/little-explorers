@@ -27,7 +27,7 @@
                 "type": "action",
                 "template": "action",
                 "label": "Map",
-                "url": "/style-guide/",
+                "url": "/map/",
                 "style": "link"
             },
             {
