@@ -2,7 +2,7 @@
     "title": "Stackbit Exto Theme",
     "description": "A portfolio theme with a blog",
     "color_scheme": "dark",
-    "accent_color": "blue",
+    "accent_color": "green",
     "header": {
         "type": "header",
         "template": "header",
