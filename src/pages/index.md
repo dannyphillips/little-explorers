@@ -13,7 +13,7 @@ sections:
     actions:
       - type: action
         template: action
-        label: Explore
+        label: Explore with us
         url: /contact
         style: button
   - type: section_posts
