@@ -42,7 +42,7 @@
     "footer": {
         "type": "footer",
         "template": "footer",
-        "content": "&copy; Danny Phillips. All rights reserved.",
+        "content": "&copy; 2020 Danny Phillips. All rights reserved.",
         "links": [
             {
                 "type": "action",
