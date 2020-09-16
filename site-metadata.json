@@ -42,7 +42,7 @@
     "footer": {
         "type": "footer",
         "template": "footer",
-        "content": "&copy; Stackbit-Exto. All rights reserved.",
+        "content": "&copy; Little Explorers. All rights reserved.",
         "links": [
             {
                 "type": "action",
