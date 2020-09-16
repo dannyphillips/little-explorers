@@ -16,6 +16,7 @@ sections:
         label: Explore with us
         url: /contact
         style: button
+        icon_class: star
   - type: section_posts
     template: section_posts
     title: Latest from the Blog
