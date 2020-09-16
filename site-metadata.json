@@ -42,7 +42,7 @@
     "footer": {
         "type": "footer",
         "template": "footer",
-        "content": "&copy; Little Explorers. All rights reserved.",
+        "content": "&copy; Danny Phillips. All rights reserved.",
         "links": [
             {
                 "type": "action",
