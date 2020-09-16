@@ -26,7 +26,7 @@ sections:
     view_all_url: portfolio
   - type: section_grid
     template: section_grid
-    title: What We Do
+    title: ''
     section_id: services
     subtitle: An optional subtitle of the section
     col_number: two
