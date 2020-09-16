@@ -7,7 +7,7 @@ sections:
     title: The Little Explorers
     section_id: hero
     content: >-
-      We're a family of 5, with three kids under three, who are traveling the US
+      We're a family of five, with three kids under 3, who are traveling the US
       fulltime in a 18ft travel trailer. Join us on our adventures as we explore
       the world around us!
     actions:
