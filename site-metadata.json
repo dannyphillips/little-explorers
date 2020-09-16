@@ -43,16 +43,7 @@
         "type": "footer",
         "template": "footer",
         "content": "&copy; 2020 Danny Phillips. All rights reserved.",
-        "links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Made with Stackbit.",
-                "url": "https://www.stackbit.com",
-                "style": "link",
-                "new_window": true
-            }
-        ],
+        "links": [],
         "has_social": true,
         "social_links": [
             {
