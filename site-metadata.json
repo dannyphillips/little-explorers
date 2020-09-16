@@ -37,7 +37,8 @@
                 "url": "/about/",
                 "style": "link"
             }
-        ]
+        ],
+        "logo_img": "/images/avatar.png"
     },
     "footer": {
         "type": "footer",
