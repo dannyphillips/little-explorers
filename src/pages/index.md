@@ -15,7 +15,7 @@ sections:
         template: action
         label: Explore with us
         url: /contact
-        style: button
+        style: link
   - type: section_posts
     template: section_posts
     title: Latest from the Blog
