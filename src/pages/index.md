@@ -31,7 +31,7 @@ sections:
         url: blog
         style: button
   - title: lorem-ipsum
-    section_id: lorem-ipsum
+    section_id: h
     content: >-
       ## Lorem ipsum
 
