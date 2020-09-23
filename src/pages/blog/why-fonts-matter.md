@@ -1,5 +1,5 @@
 ---
-title: The Movitivation
+title: The Motivation
 date: '2019-03-27'
 thumb_image: images/12.jpg
 image: images/12.jpg
