@@ -6,7 +6,7 @@
     "header": {
         "type": "header",
         "template": "header",
-        "title": "The Little Explorers",
+        "title": "Our Little Explorers",
         "has_nav": true,
         "nav_links": [
             {
