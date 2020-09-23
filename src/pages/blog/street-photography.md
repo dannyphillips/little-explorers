@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: The Plan
 date: '2019-03-10'
 thumb_image: images/8.jpg
 image: images/8.jpg
