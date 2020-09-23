@@ -1,5 +1,5 @@
 ---
-title: The Elements of Great Workplace Design
+title: Getting Ready
 date: '2019-03-24'
 thumb_image: images/11.jpg
 image: images/11.jpg
