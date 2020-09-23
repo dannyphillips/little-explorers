@@ -1,5 +1,5 @@
 ---
-title: Understanding Street Photography
+title: About Us
 date: '2019-03-10'
 thumb_image: images/8.jpg
 image: images/8.jpg
