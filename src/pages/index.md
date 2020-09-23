@@ -4,7 +4,7 @@ hide_title: true
 sections:
   - type: section_hero
     template: section_hero
-    title: 'One Big Family Adventasdflkj '
+    title: One Big Family Adventure
     section_id: hero
     content: >-
       We're a family of five, with three kids under 3, who are traveling the US
