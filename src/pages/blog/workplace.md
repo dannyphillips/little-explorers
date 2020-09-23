@@ -1,5 +1,5 @@
 ---
-title: Getting Ready
+title: The Preparation
 date: '2019-03-24'
 thumb_image: images/11.jpg
 image: images/11.jpg
