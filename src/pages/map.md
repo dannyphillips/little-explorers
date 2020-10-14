@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Our Joureny
 subtitle: lorem-ipsum
 excerpt: lorem-ipsum
 template: page
