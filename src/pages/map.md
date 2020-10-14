@@ -5,4 +5,4 @@ excerpt: lorem-ipsum
 template: page
 ---
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1OBWC487Gxy9lyNo3n7sOYiyierre1QWL" width="1280" height="1280"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1OBWC487Gxy9lyNo3n7sOYiyierre1QWL" width="640" height="480"></iframe>
