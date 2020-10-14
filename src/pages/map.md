@@ -1,5 +1,5 @@
 ---
-title: Our Journy
+title: Our Journey
 subtitle: Follow along as we explore the US.
 excerpt: lorem-ipsum
 template: page
