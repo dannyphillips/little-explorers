@@ -1,69 +1,71 @@
 {
+  "title": "The Little Explorers",
+  "description": "One big family adventure!",
+  "color_scheme": "light",
+  "accent_color": "green",
+  "header": {
+    "type": "header",
+    "template": "header",
     "title": "The Little Explorers",
-    "description": "One big family adventure!",
-    "color_scheme": "dark",
-    "accent_color": "green",
-    "header": {
-        "type": "header",
-        "template": "header",
-        "title": "The Little Explorers",
-        "has_nav": true,
-        "nav_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Home",
-                "url": "/",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Blog",
-                "url": "/blog/",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Map",
-                "url": "/map/",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "About",
-                "url": "/about/",
-                "style": "link"
-            }
-        ]
-    },
-    "footer": {
-        "type": "footer",
-        "template": "footer",
-        "content": "&copy; 2020 Danny Phillips. All rights reserved.",
-        "links": [],
-        "has_social": true,
-        "social_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "style": "icon",
-                "icon_class": "fa-twitter",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
-                "style": "icon",
-                "icon_class": "fa-instagram",
-                "new_window": true
-            }
-        ]
-    }
+    "has_nav": true,
+    "nav_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Home",
+        "url": "/",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Blog",
+        "url": "/blog/",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Map",
+        "url": "/map/",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "About",
+        "url": "/about/",
+        "style": "link"
+      }
+    ]
+  },
+  "footer": {
+    "type": "footer",
+    "template": "footer",
+    "content": "&copy; 2020 Danny Phillips. All rights reserved.",
+    "links": [
+
+    ],
+    "has_social": true,
+    "social_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Twitter",
+        "url": "https://twitter.com/",
+        "style": "icon",
+        "icon_class": "fa-twitter",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/",
+        "style": "icon",
+        "icon_class": "fa-instagram",
+        "new_window": true
+      }
+    ]
+  }
 }
