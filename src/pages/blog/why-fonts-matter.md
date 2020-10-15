@@ -3,7 +3,7 @@ title: The Motivation
 date: '2019-03-27'
 thumb_image: images/12.jpg
 image: images/12.jpg
-excerpt: Why did we decide to sell our stuff and move
+excerpt: Why did we decide to sell our stuff and move with 3 small kids.
 template: post
 ---
 
