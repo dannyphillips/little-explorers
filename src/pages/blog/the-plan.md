@@ -4,8 +4,7 @@ date: '2019-03-10'
 thumb_image: images/8.jpg
 image: images/8.jpg
 excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra.
+  What are we doing and what do we hope to accomplish?.
 template: post
 ---
 
