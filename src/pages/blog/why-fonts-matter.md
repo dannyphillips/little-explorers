@@ -5,7 +5,7 @@ thumb_image: images/12.jpg
 image: images/12.jpg
 excerpt: >-
   Why did we decide to sell our stuff and move into a travel trailwith 3 small
-  kids. to l the 
+  kids. to 
 template: post
 ---
 
