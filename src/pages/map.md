@@ -1,8 +1,7 @@
 ---
 title: Our Journey
 subtitle: Follow along as we explore the US.
-excerpt: lorem-ipsum
-template: page
+template: advanced
 ---
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1OBWC487Gxy9lyNo3n7sOYiyierre1QWL" width="640" height="480"></iframe>
+<iframe width="640" height="480" src="https://www.polarsteps.com/phillips/3794510-full-time-rv-2020?embed=true"></iframe>
