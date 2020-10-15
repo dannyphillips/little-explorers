@@ -66,6 +66,15 @@
         "icon_class": "fa-instagram",
         "new_window": true
       }
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Youtube",
+        "url": "https://www.youtube.com/",
+        "style": "icon",
+        "icon_class": "fa-youtube",
+        "new_window": true
+      }
     ]
   }
 }
