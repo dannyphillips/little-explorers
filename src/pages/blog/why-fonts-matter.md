@@ -4,9 +4,8 @@ date: '2019-03-27'
 thumb_image: images/12.jpg
 image: images/12.jpg
 excerpt: >-
-  Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
-  massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing
-  placerat lorem.
+  Why did we decide to sell our stuff and move into a travel trailer with 3
+  small kids.
 template: post
 ---
 
