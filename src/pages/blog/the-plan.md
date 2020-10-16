@@ -1,13 +1,10 @@
 ---
-title: Green is my favorite color
-subtitle: 'Apparently, green is my favorite color.'
-date: '2018-01-11'
-thumb_image: images/5.jpg
-image: images/5.jpg
+title: The Plan
+date: '2019-03-10'
+thumb_image: images/8.jpg
+image: images/8.jpg
 excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra
-  nam libero justo laoreet sit.
+  What are we doing and what do we hope to accomplish?.
 template: post
 ---
 
