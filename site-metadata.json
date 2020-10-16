@@ -33,7 +33,7 @@
             {
                 "type": "action",
                 "template": "action",
-                "label": "Meet us",
+                "label": "Meet Us",
                 "url": "/about/",
                 "style": "link"
             }
