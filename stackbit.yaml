@@ -156,11 +156,11 @@ models:
             - section_portfolio
             - section_posts
             - section_testimonials
-  blog:
+  journal:
     type: page
-    label: Blog
-    layout: blog
-    file: blog/index.md
+    label: Journal
+    layout: journal
+    file: journal/index.md
     hideContent: true
     singleInstance: true
     fields:
@@ -224,7 +224,7 @@ models:
     label: Page
     layout: page
     exclude:
-      - blog/**
+      - journal/**
       - portfolio/**
     fields:
       - type: string
@@ -248,7 +248,7 @@ models:
     type: page
     label: Post
     layout: post
-    folder: blog
+    folder: journal
     fields:
       - type: string
         name: title
@@ -266,7 +266,7 @@ models:
       - type: image
         name: thumb_image
         label: Featured Image
-        description: The image shown in the blog feed.
+        description: The image shown in the journal feed.
       - type: image
         name: image
         label: Alternative Featured Image
@@ -274,7 +274,7 @@ models:
       - type: string
         name: excerpt
         label: Excerpt
-        description: The excerpt of the post displayed in the blog feed and in meta data.
+        description: The excerpt of the post displayed in the journal feed and in meta data.
   project:
     type: page
     label: Project

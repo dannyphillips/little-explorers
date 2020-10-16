@@ -20,7 +20,7 @@
                 "type": "action",
                 "template": "action",
                 "label": "Journal",
-                "url": "/blog/",
+                "url": "/journal/",
                 "style": "link"
             },
             {

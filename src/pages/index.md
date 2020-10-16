@@ -14,12 +14,12 @@ sections:
       - type: action
         template: action
         label: Explore with us
-        url: /contact
+        url: https://www.polarsteps.com/phillips/3794510-full-time-rv-2020
         style: button
         icon_class: ''
   - type: section_posts
     template: section_posts
-    title: Latest from the Blog
+    title: Latest Journal Entries
     section_id: latest-posts
     subtitle: An optional subtitle of the section
     posts_number: 3
@@ -27,8 +27,8 @@ sections:
     actions:
       - type: action
         template: action
-        label: View Blog
-        url: blog
+        label: View Journal
+        url: journal
         style: button
 template: advanced
 ---

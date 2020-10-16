@@ -16,9 +16,9 @@ export const query = graphql`
   }
 `;
 
-export default class Blog extends React.Component {
+export default class Journal extends React.Component {
     render() {
-        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/blog'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/journal'), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
             <div className="inner outer">
