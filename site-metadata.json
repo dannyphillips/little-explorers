@@ -65,7 +65,7 @@
         "style": "icon",
         "icon_class": "fa-instagram",
         "new_window": true
-      }
+      },
       {
         "type": "action",
         "template": "action",

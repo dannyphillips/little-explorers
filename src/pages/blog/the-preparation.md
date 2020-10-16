@@ -4,8 +4,7 @@ date: '2019-03-24'
 thumb_image: images/11.jpg
 image: images/11.jpg
 excerpt: >-
-  Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
-  sapien blandit ac amet faucibus aliquet placerat commodo.
+  What we did to prepare for the trip: the camper upgrades, downsizing process, and planning.
 template: post
 ---
 

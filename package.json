@@ -1,5 +1,5 @@
 {
-  "name": "Little Explorers",
+  "name": "little-explorers",
   "description": "Follow along in our family adventures",
   "version": "0.0.1",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "classnames": "2.2.6",
     "fs-extra": "9.0.1",
     "gatsby": "2.24.77",
+    "gatsby-legacy-polyfills": "0.0.5",
     "gatsby-plugin-react-helmet": "3.3.14",
     "gatsby-plugin-sass": "2.3.16",
     "gatsby-source-filesystem": "2.3.34",
