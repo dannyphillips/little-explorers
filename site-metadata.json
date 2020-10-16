@@ -19,7 +19,7 @@
             {
                 "type": "action",
                 "template": "action",
-                "label": "Blog",
+                "label": "Journal",
                 "url": "/blog/",
                 "style": "link"
             },
