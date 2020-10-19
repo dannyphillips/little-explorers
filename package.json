@@ -17,7 +17,7 @@
     "gatsby": "^2.24.80",
     "gatsby-legacy-polyfills": "0.0.5",
     "gatsby-plugin-react-helmet": "3.3.14",
-    "gatsby-plugin-sass": "2.3.16",
+    "gatsby-plugin-sass": "2.3.17",
     "gatsby-source-filesystem": "2.3.34",
     "gatsby-transformer-remark": "2.8.41",
     "js-yaml": "3.14.0",
