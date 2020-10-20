@@ -36,5 +36,4 @@ fields:
   config:
     required: true
 pages:
-- src/pages/contact.md
 - src/pages/index.md
