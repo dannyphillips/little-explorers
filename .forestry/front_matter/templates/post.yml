@@ -20,7 +20,7 @@ fields:
 - type: file
   name: thumb_image
   label: Featured Image
-  description: The image shown in the blog feed.
+  description: The image shown in the journal feed.
 - type: file
   name: image
   label: Alternative Featured Image
@@ -28,7 +28,7 @@ fields:
 - type: text
   name: excerpt
   label: Excerpt
-  description: The excerpt of the post displayed in the blog feed and in meta data.
+  description: The excerpt of the post displayed in the journal feed and in meta data.
 - type: text
   name: template
   label: Template

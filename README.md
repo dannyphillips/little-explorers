@@ -1,6 +1,6 @@
 # Little Explorers
 
-A simple blog to follow along with our travels.
+A simple app to follow along with our travels.
 
 ## Tech Stack
 

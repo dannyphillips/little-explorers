@@ -10,10 +10,10 @@ sections:
   templates:
   - config
 - type: document
-  path: src/pages/blog/index.md
-  label: Blog
+  path: src/pages/journal/index.md
+  label: Journal
   templates:
-  - blog
+  - journal
 - type: document
   path: src/pages/portfolio/index.md
   label: Portfolio
