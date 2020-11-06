@@ -14,7 +14,7 @@
     "chokidar": "3.4.3",
     "classnames": "2.2.6",
     "fs-extra": "9.0.1",
-    "gatsby": "^2.25.2",
+    "gatsby": "^2.25.3",
     "gatsby-legacy-polyfills": "0.0.6",
     "gatsby-plugin-react-helmet": "3.3.14",
     "gatsby-plugin-sass": "2.4.2",
