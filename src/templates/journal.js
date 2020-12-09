@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import moment from 'moment-strftime';
 import {graphql} from 'gatsby';
+import Image from 'next/image'
 
 import {Layout} from '../components/index';
 import {classNames, htmlToReact, getPages, Link, withPrefix} from '../utils';
@@ -36,7 +37,7 @@ export default class Journal extends React.Component {
                   <div className="post-inside">
                     {_.get(post, 'frontmatter.thumb_image', null) && (
                     <Link className="post-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
-                      <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                      <Image src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                     </Link>
                     )}
                     <header className="post-header">

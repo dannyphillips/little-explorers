@@ -1,5 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
+import Image from 'next/image'
+
 
 import {Link, withPrefix, classNames} from '../utils';
 import ActionLink from './ActionLink';
@@ -13,7 +15,7 @@ export default class Header extends React.Component {
                   <div className="site-branding">
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img', null) ? (
                     <p className="site-logo">
-                      <Link to={withPrefix('/')}><img src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)} /></Link>
+                      <Link to={withPrefix('/')}><Image src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)} /></Link>
                     </p>
                     ) : 
                     <p className="site-title"><Link to={withPrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)}</Link></p>
