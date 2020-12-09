@@ -18,3 +18,5 @@ jobs:
       - run:
           name: Build App
           command: npm run build
+      - name: Deploy to Firebase
+        command: npm run deploy -- --token "$FIREBASE_TOKEN"
