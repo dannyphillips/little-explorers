@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import Image from 'next/image'
 
 import {htmlToReact, classNames, withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
@@ -30,7 +31,7 @@ export default class SectionGrid extends React.Component {
                       )}
                       {_.get(item, 'image', null) && (
                       <div className="grid-item-image">
-                        <img src={withPrefix(_.get(item, 'image', null))} alt={_.get(item, 'title', null)} />
+                        <Image src={withPrefix(_.get(item, 'image', null))} alt={_.get(item, 'title', null)} />
                       </div>
                       )}
                       {_.get(item, 'title', null) && (

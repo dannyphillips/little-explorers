@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import Image from 'next/image'
 
 import {htmlToReact, withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
@@ -22,7 +23,7 @@ export default class SectionContent extends React.Component {
                 )}
                 {_.get(section, 'image', null) && (
                 <div className="block-image">
-                  <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'title', null)} />
+                  <Image src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'title', null)} />
                 </div>
                 )}
                 {_.get(section, 'content', null) && (

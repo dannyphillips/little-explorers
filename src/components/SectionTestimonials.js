@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import Image from 'next/image'
 
 import {htmlToReact, classNames, withPrefix} from '../utils';
 
@@ -28,7 +29,7 @@ export default class SectionTestimonials extends React.Component {
                         <p className="testimonial-content">{htmlToReact(_.get(testimonial, 'content', null))}</p>
                         <footer className="testimonial-footer">
                           {_.get(testimonial, 'avatar', null) && (
-                          <img className="testimonial-avatar" src={withPrefix(_.get(testimonial, 'avatar', null))} alt="Author avatar"/>
+                          <Image className="testimonial-avatar" src={withPrefix(_.get(testimonial, 'avatar', null))} alt="Author avatar"/>
                           )}
                           <cite className="testimonial-author">{_.get(testimonial, 'author', null)}</cite>
                         </footer>

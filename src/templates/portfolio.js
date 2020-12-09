@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import {graphql} from 'gatsby';
+import Image from 'next/image'
 
 import {Layout} from '../components/index';
 import {getPages, Link, withPrefix} from '../utils';
@@ -33,7 +34,7 @@ export default class Portfolio extends React.Component {
                   <Link to={withPrefix(_.get(post, 'url', null))} className="project-link">
                     {_.get(post, 'frontmatter.thumb_image', null) && (
                     <div className="project-thumbnail">
-                      <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                      <Image src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                     </div>
                     )}
                     <header className="project-header">

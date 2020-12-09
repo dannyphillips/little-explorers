@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import moment from 'moment-strftime';
 import {graphql} from 'gatsby';
+import Image from 'next/image'
 
 import {Layout} from '../components/index';
 import {htmlToReact, withPrefix} from '../utils';
@@ -32,7 +33,7 @@ export default class Post extends React.Component {
                 </header>
                 {_.get(this.props, 'pageContext.frontmatter.image', null) && (
                 <div className="post-image">
-                  <img src={withPrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.title', null)} />
+                  <Image src={withPrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.title', null)} />
                 </div>
                 )}
                 <div className="post-content inner-sm">

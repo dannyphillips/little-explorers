@@ -31,7 +31,7 @@ export default class SectionPortfolio extends React.Component {
                       <Link to={withPrefix(_.get(section, 'view_all_url', null))} className="project-link view-all-link">
                         {_.get(post, 'frontmatter.thumb_image', null) && (
                         <div className="project-thumbnail">
-                          <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                          <Image src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                         </div>
                         )}
                         <span className="view-all-button">{_.get(section, 'view_all_label', null)}</span>
@@ -40,7 +40,7 @@ export default class SectionPortfolio extends React.Component {
                       <Link to={withPrefix(_.get(post, 'url', null))} className="project-link">
                         {_.get(post, 'frontmatter.thumb_image', null) && (
                         <div className="project-thumbnail">
-                          <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                          <Image src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                         </div>
                         )}
                         <header className="project-header">

@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import moment from 'moment-strftime';
+import Image from 'next/image'
 
 import {htmlToReact, classNames, getPages, Link, withPrefix} from '../utils';
 import CtaButtons from './CtaButtons';
@@ -30,7 +31,7 @@ export default class SectionPosts extends React.Component {
                       <div className="post-inside">
                         {_.get(post, 'frontmatter.thumb_image', null) && (
                         <Link className="post-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
-                          <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                          <Image src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                         </Link>
                         )}
                         <header className="post-header">
