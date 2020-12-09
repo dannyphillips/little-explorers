@@ -39,5 +39,8 @@
     "react-script-tag": "1.1.2",
     "rehype-react": "6.1.0",
     "sprintf-js": "1.1.2"
+  },
+  "devDependencies": {
+    "firebase-tools": "^8.18.0"
   }
 }
