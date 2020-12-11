@@ -1,7 +1,25 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/gaps
+    working_directory: ~/little-explorers
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Build App
+          command: npm run build
+  build_deploy:
+    working_directory: ~/little-explorers
     docker:
       - image: circleci/node:latest
     steps:
@@ -21,3 +39,17 @@ jobs:
       - run: 
           name: Deploy to Firebase
           command: npm run deploy -- --token "$FIREBASE_TOKEN"
+workflows:
+  version: 2
+  test-build:
+    jobs:
+      - build
+      filters:
+        branches:
+          ignore: master
+  build-deploy:
+    jobs:
+      - build_deploy
+      filters:
+        branches:
+          only: master
