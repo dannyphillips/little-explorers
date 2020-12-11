@@ -41,13 +41,15 @@ jobs:
           command: npm run deploy -- --token "$FIREBASE_TOKEN"
 workflows:
   version: 2
-  test-build:
+  - test-build
     jobs:
       build:
         branches:
-          ignore: master
-  build-deploy:
+          ignore: 
+            - master
+  - build-deploy
     jobs:
       build_deploy:
         branches:
-          only: master
+          only: 
+            - master
