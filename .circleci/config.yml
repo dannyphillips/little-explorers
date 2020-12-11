@@ -24,3 +24,5 @@ jobs:
           branches:
             only: 
               - master
+workflows:
+  build_and_deploy:
