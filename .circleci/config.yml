@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/gaps
+    working_directory: ~/little-explorers
     docker:
       - image: circleci/node:latest
     steps:
@@ -18,3 +18,9 @@ jobs:
       - run:
           name: Build App
           command: npm run build
+      - run: 
+          name: Deploy to Firebase
+          command: npm run deploy -- --token "$FIREBASE_TOKEN"
+          branches:
+            only: 
+              - master
