@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build_and_deploy:
+  build:
     working_directory: ~/little-explorers
     docker:
       - image: circleci/node:latest
@@ -24,6 +24,3 @@ jobs:
           branches:
             only: 
               - master
-workflows:
-  version: 2
-  - build_and_deploy
