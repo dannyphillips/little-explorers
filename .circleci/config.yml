@@ -43,13 +43,13 @@ workflows:
   version: 2
   test-build:
     jobs:
-      - build
+    - build
       filters:
         branches:
           ignore: master
   build-deploy:
     jobs:
-      - build_deploy
+    - build_deploy
       filters:
         branches:
           only: master
