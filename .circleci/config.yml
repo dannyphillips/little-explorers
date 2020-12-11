@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  build_and_deploy:
     working_directory: ~/little-explorers
     docker:
       - image: circleci/node:latest
