@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
-    "chokidar": "3.5.2",
+    "chokidar": "3.5.3",
     "classnames": "2.3.1",
     "fs-extra": "10.0.0",
     "gatsby": "2.32.13",
