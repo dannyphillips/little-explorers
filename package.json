@@ -17,7 +17,7 @@
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
     "chokidar": "3.5.3",
-    "classnames": "2.3.1",
+    "classnames": "2.3.2",
     "fs-extra": "10.0.0",
     "gatsby": "2.32.13",
     "gatsby-legacy-polyfills": "1.14.0",
